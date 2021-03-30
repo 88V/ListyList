@@ -4,7 +4,9 @@ Todo App.
 *******************
 HOW TO RUN THE APP:
 
-Cd into "client" and type "npm install" and then "npm start" - this starts the client app
+download code folder.
+
+CD into "client" and type "npm install" and then "npm start" - this starts the client app
 
 CD into "server" and type "npm install" and then " Node server.js" to start the server
 *******************************
