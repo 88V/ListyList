@@ -22,10 +22,10 @@ const reducer = (prevState, action) => {
 class Provider extends Component {
   state = {
     todos: [
-      { id: 1, title: "Complete Code Louisville Project", completed: false },
+      { id: 1, title: "Take out trash", completed: false },
       { id: 2, title: "Check Emails", completed: false },
 
-      { id: 3, title: "Get Covid Vaccine", completed: false },
+      { id: 3, title: "Post on IG", completed: false },
     ],
     dispatch: (action) =>
       this.setState((prevState) => reducer(prevState, action)),
