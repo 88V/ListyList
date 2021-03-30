@@ -12,10 +12,14 @@ CD into "server" and type "npm install" and then " Node server.js" to start the 
 *******************************
 
 
+***********
+These are the dependencies for the backend: express mongoose cors dotenv
+***********
+
 Backend the folder is named server
 When you create the folder. In the command line. You type NPM init –y to create the package.Json file. 
 
-These are the dependencies for the backend: express mongoose cors dotenv
+
 
 The main control for the backend is the server.js file
 Here the connection to the host and the database takes place. The express is used for creating routes. I created the routes.js file to have a cleaner server.js file. The routes.js file contains all the routes for the application. That is the routes for creating, reading, updating and deleting the todo application
